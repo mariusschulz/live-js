@@ -1,0 +1,15 @@
+{
+  "name": "backup",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "babel input.js -o output.js -w"
+  },
+  "author": "Marius Schulz",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-es2016": "^6.16.0",
+    "babel-preset-es2017": "^6.16.0"
+  }
+}
