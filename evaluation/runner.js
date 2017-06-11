@@ -8,7 +8,7 @@ console.log(chalk.dim.white(separator));
 console.log("");
 
 try {
-    require("./input");
+    require("./src/index");
 } catch (e) {
     console.log(chalk.red(e.stack));
 }
