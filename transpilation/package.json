@@ -2,7 +2,7 @@
   "name": "backup",
   "version": "0.1.0",
   "scripts": {
-    "start": "node node_modules/.bin/babel src/ -d dist/ -w"
+    "start": "babel src/ -d dist/ -w"
   },
   "author": "Marius Schulz",
   "license": "MIT",
